@@ -29,9 +29,11 @@
    ```bash
    git clone https://github.com/username/flutter-debt-app.git
    cd flutter-debt-app
-   ![Ligin Screen](https://github.com/esmail830/sudan-etc/assets/login.jpeg)
+   
 2.ثبت الحزم
 flutter pub get
 
 3.شغل التطبيق:
 flutter run
+
+![Ligin Screen](assets/login.jpeg)
