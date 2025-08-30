@@ -1,16 +1,36 @@
-# sudan_electricity_app
+# 📱 Flutter App - نظام تسجيل بلاغات الأعطال  
 
-A new Flutter project.
+تطبيق أندرويد لتسجيل بلاغات الأعطال باستخدام **تعلم الآلة** لصالح الشركة السودانية لتوزيع الكهرباء.  
+يتيح للمستخدمين إرسال بلاغات الأعطال بسهولة، كما يوفر لوحة تحكم لعرض وتحليل البيانات.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ المميزات
+- تسجيل بلاغات الأعطال مع تفاصيل الموقع والوصف.
+- رفع صور مرفقة مع البلاغ.
+- تصنيف الأعطال باستخدام خوارزميات تعلم الآلة.
+- واجهة سهلة الاستخدام **(UI/UX)**.
+- تخزين البيانات باستخدام **SQLite / MySQL**.
+- مزامنة البيانات مع الخادم (API).  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ التقنيات المستخدمة
+- **Flutter & Dart**  
+- **Machine Learning (Python Model Integration)**  
+- **SQLite / MySQL**  
+- **REST API**  
+- **Git & GitHub**  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 التشغيل محليًا
+1. استنسخ المستودع:
+   ```bash
+   git clone https://github.com/username/flutter-debt-app.git
+   cd flutter-debt-app
+2.ثبت الحزم
+flutter pub get
+
+3.شغل التطبيق:
+flutter run
