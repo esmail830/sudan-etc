@@ -19,9 +19,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: "https://yryvvelcmymifkjtfenf.supabase.co",
+    url: "supabase api",
     anonKey:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlyeXZ2ZWxjbXltaWZranRmZW5mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwNzgwNTgsImV4cCI6MjA3MDY1NDA1OH0.1tP2k6Hm009sP_7GwBkKBXHGD1QEg49W5YVQYtAPDRU",
+        "api key",
   );
 
   // محاولة استعادة الجلسة عند بدء التطبيق
