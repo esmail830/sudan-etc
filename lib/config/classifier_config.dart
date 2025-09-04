@@ -1,7 +1,7 @@
 class ClassifierConfig {
   static const String apiBaseUrl = String.fromEnvironment(
     'CLASSIFIER_API_URL',
-    defaultValue: 'https://faults-api.onrender.com',
+    defaultValue: 'python api',
   );
 
   // المسار الصحيح حسب سجلات Render
